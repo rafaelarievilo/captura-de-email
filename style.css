@@ -19,16 +19,17 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
 }
 
 .section {
     display: flex;
     flex-direction: column;
+ 
 }
 .img {
     display: flex;
     align-items: center;
+    height: 100vh;
 }
 
 .text {
@@ -85,5 +86,47 @@ form button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1009px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section, .img {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section, .img {
+        margin-top: 2rem;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 30rem;
+    }
 }
 
