@@ -94,6 +94,7 @@ form button:hover {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
     .section {
         display: flex;
@@ -111,6 +112,7 @@ form button:hover {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
     .section {
         display: flex;
